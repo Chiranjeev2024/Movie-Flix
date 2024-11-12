@@ -1,8 +1,12 @@
+import MovieCard from "./movieCard";
 
 
 function App() {
   return (
-    <h1>helloo</h1>
+    <>
+    <h1>Movie Flix</h1>
+    <MovieCard/>
+    </>
   );
 }
 
