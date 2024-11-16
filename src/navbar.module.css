@@ -1,0 +1,43 @@
+.nav {
+    height: 65px;
+    background : linear-gradient(170deg, #1bc059, #0d47a1);
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    position : relative
+}
+    
+.title {
+    font-size : 30px;
+    color : #fff;
+    font-weight : 600;
+    font-family : Montserrat, sans-serif;
+    margin-left : 20px;
+}
+
+.title:hover{
+    font-size : 33px;
+    cursor : pointer
+}
+    
+.cartContainer {
+    position : relative;
+    cursor : pointer
+}
+    
+.cartIcon {
+    height : 45px;
+    margin-right : 20px;
+    margin-top : 8px
+}
+    
+.cartCount  {
+    background : orange;
+    border-radius : 45%;
+    padding : 4px 8px;
+    position : absolute;
+    right : 19.5px;
+    top : 7px;
+    font-size : 10px;
+    font-weight : bold
+}

@@ -36,19 +36,20 @@ body {
   border-radius: 10px;
   /* box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #f1f1f1; */
   display: flex;
+  
 }
 .movie-card:not(:first-child) {
   margin-top: 20px;
 }
 .movie-card:last-child {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .movie-card .left {
   flex: 1;
   padding: 5px
 }
 .movie-card .left img {
-  height: 250px;
+  height: 200px;
   
 }
 .movie-card .right {
